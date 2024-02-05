@@ -315,9 +315,17 @@ footer .social-icon a {
 @media screen and (max-width: 376px) {
     
     header {
-        padding: 40px;
         width: 400px;
         height: 100%;
+    }
+
+    header .bg-desk {
+        width: 450px;
+        height: 100%;
+    }
+
+    header .content {
+        padding: 50px 0 0 50px;
     }
 
     .section-1 {
@@ -410,7 +418,7 @@ footer .social-icon a {
     }
 
     footer {
-        width: 100%;
+        width: 430px;
         height: 100%;
 
         display: flex;
@@ -419,12 +427,11 @@ footer .social-icon a {
     }
 
     footer img {
-        width: 50%;
-        height: 100%;
+        margin: 50px 0 0 50px;
     }
 
     footer .content {
-        padding-right: 50%;
+        padding-right: 60%;
         width: 200px;
         height: 100%;
 
